@@ -9,40 +9,34 @@ const ContactModal = ({ isOpen, onClose }) => {
 
   if (!isOpen) return null;
 
-  const validarNombre = (value) => { // solo letras y espacios
+  const validarNombre = (value) => { // Validar que solo tenga letras
     const soloLetras = /^[a-zA-ZáéíóúÁÉÍÓÚñÑ ]+$/;
     return soloLetras.test(value.trim());
   };
 
-  const handleNombreChange = (e) => { // Validar nombre en tiempo real
+  const handleNombreChange = (e) => { // Manejar el cambio del nombre
     const value = e.target.value;
     setNombre(value);
     setErrorNombre(value.length > 0 && !validarNombre(value));
   };
 
-  const isValid = // Validar antes de enviar
+  const isValid = // Validar que el  nombre tenga mas de 2 digitos y el mensaje mas de 5
     nombre.trim().length > 2 &&
     validarNombre(nombre) &&
     mensaje.trim().length > 5;
 
-  const handleSend = () => { // Enviar mensaje pro whatsapp
+  const handleSend = () => { // Enviar mensaje por whatsapp
     const texto = `Hola, soy ${nombre}. Me interesa una página web.\n${mensaje}`;
-    const url = `${adminData.whatsapp}?text=${encodeURIComponent(texto)}`;
+    const mensajeCodificado = encodeURIComponent(texto);
+    const url = `https://wa.me/${adminData.whatsapp}?text=${mensajeCodificado}`;
     window.open(url, "_blank");
-  };
-
-  const handleClose = () => {
-    setNombre("");
-    setMensaje("");
-    setErrorNombre(false);
-    onClose();
-  }
+};
 
   return (
     <div className="flex fixed justify-center items-center inset-0 z-50 bg-black bg-opacity-40">
       <div className="rounded-lg shadow-lg p-6 w-full max-w-md relative bg-white">
         <button
-          onClick={handleClose}
+          onClick={onClose}
           className="absolute top-3 right-3 text-gray-500 hover:text-red-500"
         >
           <FaTimes />

@@ -14,28 +14,28 @@ const sections = [
     content:
       "Cada industria es única, y lo mismo debería ser tu diseño. Creamos páginas web adaptadas a tu producto y a tu mercado, con un enfoque creativo y funcional.",
     iframe:
-      "https://lottie.host/embed/10a2e392-8ec1-4339-ba2d-59061923510f/d6yUhOQ4Xr.lottie",
+      "https://lottie.host/embed/53a100d6-995c-4881-bf33-b95588fac375/MW3RcLs1QU.lottie",
   },
   {
     title: "Desarrollo Web",
     content:
       "Además del diseño visual, el desarrollo de tu página debe responder a tus necesidades funcionales. Desde formularios hasta conexiones con sistemas externos, personalizamos cada detalle.",
     iframe:
-      "https://lottie.host/embed/10a2e392-8ec1-4339-ba2d-59061923510f/d6yUhOQ4Xr.lottie",
+      "https://lottie.host/embed/78bf0859-99c5-40e1-b656-6f1eb15ea7d4/EvopAqSCK0.lottie",
   },
   {
     title: "Contenido adaptable",
     content:
       "Las personas acceden desde distintos dispositivos. Nuestras páginas se ajustan para ofrecer una experiencia óptima sin importar desde dónde visiten tu sitio.",
     iframe:
-      "https://lottie.host/embed/10a2e392-8ec1-4339-ba2d-59061923510f/d6yUhOQ4Xr.lottie",
+      "https://lottie.host/embed/f7452a0f-c8d1-4192-8a53-9efe7153fbcd/MQD5dXKwwX.lottie",
   },
   {
     title: "Tecnología",
     content:
       "Creamos sitios personalizados y fáciles de gestionar. Usamos tecnologías como HTML5, React, JavaScript CSS/Tailwind, y Firebase para adaptarnos a lo que tu proyecto necesita.",
     iframe:
-      "https://lottie.host/embed/10a2e392-8ec1-4339-ba2d-59061923510f/d6yUhOQ4Xr.lottie",
+      "https://lottie.host/embed/81aa5158-aef0-438e-90b3-6ebe4de90df5/oWGdoZzeqo.lottie",
     showButton: true,
   },
 ];
