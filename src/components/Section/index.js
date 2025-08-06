@@ -66,7 +66,7 @@ const Section = ({ onContactClick }) => {
               {section.showButton && (
                 <button
                   onClick={onContactClick}
-                  className="px-5 py-2 rounded transition bg-blue-600 text-white hover:bg-blue-700"
+                  className="px-5 py-2 rounded transition bg-purple-600 text-white hover:bg-purple-700"
                 >
                   Contactar
                 </button>
