@@ -13,7 +13,7 @@ function App() {
       <main className="space-y-20 py-10 px-4 md:px-12">
         <Section onContactClick={() => setIsModalOpen(true)} />
       </main>
-      <Footer />
+      <Footer onContactClick={() => setIsModalOpen(true)} />
       <ContactModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </div>
   );

@@ -31,11 +31,18 @@ const ContactModal = ({ isOpen, onClose }) => {
     window.open(url, "_blank");
   };
 
+  const handleClose = () => {
+    setNombre("");
+    setMensaje("");
+    setErrorNombre(false);
+    onClose();
+  }
+
   return (
     <div className="flex fixed justify-center items-center inset-0 z-50 bg-black bg-opacity-40">
       <div className="rounded-lg shadow-lg p-6 w-full max-w-md relative bg-white">
         <button
-          onClick={onClose}
+          onClick={handleClose}
           className="absolute top-3 right-3 text-gray-500 hover:text-red-500"
         >
           <FaTimes />
