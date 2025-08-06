@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="font-sans text-gray-800">
       <Navbar onContactClick={() => setIsModalOpen(true)} />
-      <main className="space-y-20 py-10 px-4 md:px-12">
+      <main className="space-y-20 py-10 px-4 md:px-12 bg-main-bg">
         <Section onContactClick={() => setIsModalOpen(true)} />
       </main>
       <Footer onContactClick={() => setIsModalOpen(true)} />

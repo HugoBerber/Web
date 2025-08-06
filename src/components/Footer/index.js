@@ -4,7 +4,7 @@ import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const Footer = ({ onContactClick }) => {
     return (
-        <footer className="py-6 mt-12 text-center text-sm bg-gray-100 text-gray-600">
+        <footer className="py-6 text-center text-sm rounded shadow-2xl bg-white text-gray-800">
             <div className="flex justify-center gap-6 mb-2">
                 <a href={adminData.facebook} target="_blank" rel="noopener noreferrer">
                     <FaFacebook className="text-xl hover:text-blue-700" />

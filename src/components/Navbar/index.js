@@ -3,7 +3,7 @@ import adminData from "../../data/admin";
 
 const Navbar = ({ onContactClick }) => {
     return (
-        <nav className="flex justify-between items-center p-4 md:p-6 bg-white shadow-md">
+        <nav className="flex justify-between items-center p-4 md:p-6 rounded shadow-2xl bg-white">
             <h1 className="text-xl font-bold text-gray-800">{adminData.businessName}</h1>
             <button 
                 onClick={onContactClick}

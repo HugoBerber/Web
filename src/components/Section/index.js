@@ -19,7 +19,7 @@ const sections = [
   {
     title: "Desarrollo Web",
     content:
-      "Además del diseño visual, el desarrollo de tu página debe responder a tus necesidades funcionales. Desde formularios hasta conexiones con sistemas externos, personalizamos cada detalle.",
+      "Además del diseño visual, el desarrollo de tu página debe responder a tus necesidades funcionales. Desde formularios hasta conexiones con sitios externos, personalizamos cada detalle.",
     iframe:
       "https://lottie.host/embed/78bf0859-99c5-40e1-b656-6f1eb15ea7d4/EvopAqSCK0.lottie",
   },
@@ -33,7 +33,7 @@ const sections = [
   {
     title: "Tecnología",
     content:
-      "Creamos sitios personalizados y fáciles de gestionar. Usamos tecnologías como HTML5, React, JavaScript CSS/Tailwind, y Firebase para adaptarnos a lo que tu proyecto necesita.",
+      "Creamos sitios personalizados y fáciles de gestionar. Usamos tecnologías como HTML5, React, JavaScript, CSS/Tailwind, y Firebase para adaptarnos a lo que tu proyecto necesita.",
     iframe:
       "https://lottie.host/embed/81aa5158-aef0-438e-90b3-6ebe4de90df5/oWGdoZzeqo.lottie",
     showButton: true,

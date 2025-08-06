@@ -1,5 +1,5 @@
 const adminData = {
-  businessName: "WebLancer",
+  businessName: "Webder",
   facebook: "https://facebook.com",
   instagram: "https://instagram.com",
   whatsapp: "523334573050",
