@@ -12,9 +12,9 @@ const Footer = ({ onContactClick }) => {
                 <button onClick={onContactClick} className="text-xl hover:text-green-700">
                     <FaWhatsapp />
                 </button>
-                <a href={adminData.instagram} target="_blank" rel="noopener noreferrer">
+                {/* <a href={adminData.instagram} target="_blank" rel="noopener noreferrer">
                     <FaInstagram className="text-xl hover:text-pink-500" />
-                </a>
+                </a> */}
             </div>
             <p>© {new Date().getFullYear()} {adminData.businessName}. Todos los derechos reservados.</p>
         </footer>
