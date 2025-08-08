@@ -11,7 +11,7 @@ const ContactModal = ({ isOpen, onClose }) => {
 
   const validarNombre = (value) => { // Validar que solo tenga letras
     const soloLetras = /^[a-zA-ZáéíóúÁÉÍÓÚñÑ ]+$/;
-    return soloLetras.test(value.trim());
+    return soloLetras.test(value.trim()); 
   };
 
   const handleNombreChange = (e) => { // Manejar el cambio del nombre
@@ -32,7 +32,7 @@ const ContactModal = ({ isOpen, onClose }) => {
     window.open(url, "_blank");
 };
 
-  const handleClose = () => {
+  const handleClose = () => { // Resetear formulario al cerrar 
     setNombre("");
     setMensaje("");
     setErrorNombre(false);

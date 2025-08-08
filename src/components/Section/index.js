@@ -43,8 +43,8 @@ const sections = [
 const Section = ({ onContactClick }) => {
   return (
     <>
-      {sections.map((section, index) => {
-        const isEven = index % 2 === 0;
+      {sections.map((section, index) => { // Mapeo de secciones
+        const isEven = index % 2 === 0; // Determinar si el index es par
         return (
           <section
             key={index}
@@ -58,7 +58,6 @@ const Section = ({ onContactClick }) => {
                 allowFullScreen
               ></iframe>
             </div>
-
             {/* Texto */}
             <div className="w-full md:w-1/2 text-center md:text-left">
               <h2 className="text-2xl md:text-3xl font-bold mb-4">{section.title}</h2>
