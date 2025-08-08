@@ -7,7 +7,7 @@ const Navbar = ({ onContactClick }) => {
             <h1 className="text-xl font-bold text-gray-800">{adminData.businessName}</h1>
             <button 
                 onClick={onContactClick}
-                className="px-4 py-2 rounded transition shadow-md bg-purple-600 text-white hover:bg-purple-700"
+                className="px-4 py-2 rounded transition shadow-md bg-blue-600 text-white hover:bg-blue-700"
             >
                 Contactanos
             </button>

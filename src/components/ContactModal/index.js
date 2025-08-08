@@ -68,7 +68,7 @@ const ContactModal = ({ isOpen, onClose }) => {
           onClick={handleSend}
           className={`w-full px-4 py-2 rounded text-white ${
             isValid
-              ? "bg-purple-600 hover:bg-purple-700"
+              ? "bg-blue-600 hover:bg-blue-700"
               : "cursor-not-allowed bg-gray-400"
           }`}
         >
